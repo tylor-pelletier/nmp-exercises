@@ -2,7 +2,7 @@
 
 const $ = require('jquery');
 
-$(document).ready(function() {
+$(document).ready(() => {
     $("body").append("<h1>Require jQuery is working</h1>");
 });
 
