@@ -1,0 +1,32 @@
+{
+  "name": "npm-expercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:watch": "webpack --watch",
+    "build:production": "webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylor-pelletier/npm-exercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tylor-pelletier/npm-exercises/issues"
+  },
+  "homepage": "https://github.com/tylor-pelletier/npm-exercises#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "jquery": "^3.3.1",
+    "webpack": "^4.16.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.0.8"
+  }
+}
