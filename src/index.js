@@ -10,3 +10,7 @@ let sayHello = (greeting) => {
     console.log(greeting)
 };
 sayHello("Hello");
+
+const niceMessage = require("./say-hello");
+
+console.log(niceMessage("You are an amazing person"));
